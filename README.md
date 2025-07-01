@@ -1,6 +1,6 @@
 # RiteReport Financial Report Extraction & Validation Agent
 
-This Streamlit application extracts, validates, and analyzes financial statements (Balance Sheet, Profit & Loss, Cash Flow) from PDF reports using LLMs and custom schemas. It supports uploading prompt/hint questions, semantic chunking, LLM-based validation, and feedback tracking.
+This application extracts, validates, and analyzes financial statements (Balance Sheet, Profit & Loss, Cash Flow) from PDF reports using LLMs and custom schemas. It supports uploading prompt/hint questions, semantic chunking, LLM-based validation, and feedback tracking.
 
 ## Features
 
@@ -43,7 +43,3 @@ API keys for Llama Cloud and OpenAI are set in the script. For production, use e
 ## Requirements
 
 See [requirements.txt](requirements.txt).
-
-## License
-
-MIT License.
