@@ -15,10 +15,11 @@ import sqlite3
 import pandas as pd
 import plotly.express as px
 
+from utils.secrets_manager import load_secrets
 
-# --- Set API Keys (replace with your own or use environment variables) ---
-os.environ["LLAMA_CLOUD_API_KEY"] = "llx-DAetMDYuEx3KwNWM4eRyhGyQMA8cSQOXP5KTSMrwtFWnq6a4"
-os.environ["OPENAI_API_KEY"] = "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"
+secrets = load_secrets()
+os.environ["LLAMA_CLOUD_API_KEY"] = secrets["LLAMA_CLOUD_API_KEY"]
+os.environ["OPENAI_API_KEY"] = secrets["OPENAI_API_KEY"]
 
 # --- Financial Statement Models (Pydantic) ---
 
