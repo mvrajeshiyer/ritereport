@@ -1,7 +1,7 @@
 import json
 from cryptography.fernet import Fernet
 
-def load_secrets(enc_file='encrypted_keys.enc', key_file='fernet.key'):
+def load_secrets(enc_file='utils/encrypted_keys.enc', key_file='fernet.key'):
     """
     Decrypts and loads API keys from an encrypted file using a Fernet key from a file.
     """
