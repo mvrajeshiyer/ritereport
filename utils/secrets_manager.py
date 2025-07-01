@@ -2,6 +2,8 @@ import os
 import json
 from cryptography.fernet import Fernet
 
+export SECRET_KEY="O8lc6uPUdNdksa9DnnfaF6Xv-McvCsGwq_RbrpfDF2w="
+
 def load_secrets(enc_file='encrypted_keys.enc', key_env_var='SECRET_KEY'):
     """
     Decrypts and loads API keys from an encrypted file using a Fernet key from an environment variable.
