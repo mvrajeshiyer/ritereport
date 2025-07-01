@@ -16,8 +16,11 @@ import pandas as pd
 import plotly.express as px
 
 
+
 # --- Set API Keys (replace with your own or use environment variables) ---
 from utils.secrets_manager import load_secrets
+
+export SECRET_KEY="O8lc6uPUdNdksa9DnnfaF6Xv-McvCsGwq_RbrpfDF2w="
 
 secrets = load_secrets()
 os.environ["LLAMA_CLOUD_API_KEY"] = secrets["LLAMA_CLOUD_API_KEY"]
