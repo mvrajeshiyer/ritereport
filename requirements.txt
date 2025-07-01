@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+plotly
+pydantic
+openai
+llama_index
+llama_cloud_services
+cryptography
